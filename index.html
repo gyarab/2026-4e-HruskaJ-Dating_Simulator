@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sladká Tajemství - Vizuální Novela</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="game-container">
+    <div class="menu-particles" id="particles"></div>
+
+    <div id="main-menu">
+      <div class="menu-content">
+        <div class="title-badge">Ročníková práce - Jakub Hruška - Webová romantická vizuální novela</div>
+        <h1 class="game-title">Sladká Tajemství</h1>
+        <p class="game-subtitle">Zvládneš jí ulovit?</p>
+        
+        <div class="menu-buttons">
+          <button id="btn-new-game" class="btn btn-primary">Nová hra</button>
+          <button id="btn-continue" class="btn btn-secondary" disabled>Načíst hru</button>
+          <button id="btn-settings" class="btn btn-tertiary">Nastavení</button>
+          <button id="btn-about" class="btn btn-tertiary">O hře</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+      <div class="modal-content">
+        <h2>O projektu</h2>
+        <p>Interaktivní vizuální novela (dating simulator) vytvořená jako ročníková práce.</p>
+        <p>Projekt je stavěn na webových technologiích (HTML5, moderní CSS3 animace a JavaScript).</p>
+        <button id="btn-modal-close" class="btn btn-secondary">Zavřít</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
